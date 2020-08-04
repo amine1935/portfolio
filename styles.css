@@ -1,0 +1,387 @@
+body
+{
+	margin: 0;
+	background-image: url('img/bg (2).jpg');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-size: cover;
+}
+
+nav
+{
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    background-color: rgba(0, 184, 148,1.0);
+    font-family: 'Lato', sans-serif;
+
+}
+
+/** Home **/ 
+
+#first
+{
+	margin-top: -54px;
+	height: 100vh;
+    background-color: rgba(129, 236, 236,0.5);
+
+   /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);*/
+}
+
+#first .container
+{
+	padding-top: 20%;
+}
+
+#first h3, h1
+{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#first #btn_me
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+	font-size: 20px;
+	width: 200px;
+	border-radius: 15px;
+    background-color: rgba(0, 184, 148,1.0);
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#first #btn_me:hover
+{
+    background-color: rgba(85, 239, 196,1.0);
+}
+
+/** Home **/ 
+
+/** Présentation **/
+
+#second
+{
+	background-color: rgba(85, 239, 196,1.0);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#second .lead
+{
+
+    font-size: 16px;
+}
+
+#second .title-s
+{
+
+    font-size: 14px;
+}
+
+#second .container
+{
+    padding: 40px;
+}
+
+.title-s
+{
+	font-weight: bold;
+}
+
+.button-a
+{
+  background-color: #0078ff;
+  color: #fff;
+  border-color: #cde1f8;
+}
+
+.about-info
+{
+	margin-top: 20%;
+}
+
+#left_me
+{
+	padding-top: 15%;
+}
+
+#second #img_me
+{
+    border: 1px solid black;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+/** Présentation **/
+
+/** Compétences **/ 
+
+#third
+{
+	/*background-color: rgba(129, 236, 236,0.6);*/
+    background-color: white;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#third .container
+{
+	padding-top: 2%;
+}
+
+#third .container h3
+{
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#third .line-mf
+{
+    width: 120px;
+    height: 2.5px;
+    background-color: #a00000;
+    margin: 0 auto;
+}
+
+.button-rouded 
+{
+  background-color: rgba(0, 184, 148,1.0);
+  border-radius: 5rem;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.button-rouded:hover
+{
+    background-color: rgba(85, 239, 196,1.0);
+}
+
+.button-big 
+{
+  padding: .9rem 2.3rem;
+  font-size: 1.2rem;
+}
+
+.button 
+{
+  display: inline-block;
+  padding: .3rem .6rem;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 1rem;
+  border-radius: .3rem;
+  border: 1px solid transparent;
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+
+.button:focus 
+{
+  outline: 0;
+}
+
+.button:hover 
+{
+  color: #fff;
+  transition: all 500ms ease;
+}
+
+#third .skill-mf
+{
+    width: 60%;
+}
+
+.skill-mf .progress {
+    background-color: #cde1f8;
+    margin: .5rem 0 1.2rem 0;
+    border-radius: 0;
+    height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+    height: .7rem;
+    background-color: #0078ff;
+}
+
+.pull-left
+{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+
+/** Compétences **/
+
+/** Projets **/
+
+#fourth
+{
+    background-color: rgba(85, 239, 196,1.0);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#fourth .container
+{
+    padding-top: 2%;
+}
+
+#fourth .container h3
+{
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#fourth p
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#fourth .line-mf
+{
+    width: 80px;
+    height: 2.5px;
+    background-color: #a00000;
+    margin: 0 auto;
+}
+
+#fourth .container .row .col-md-4 .card
+{
+    width: 18rem;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    height: 210px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#fourth .container .row .col-md-4 .thumbnail a.lightbox img.card-img-top
+{
+    border-bottom: 1px solid black;
+}
+
+#fourth .container .row .col-md-4 .card .card-body
+{
+    font-size: 12px;
+    margin-top: -12px;
+}
+
+/** Projets **/
+
+
+/** Contact **/
+
+#fifth
+{
+    background-color: rgba(85, 239, 196,1.0);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#fifth #contact-submit
+{
+    background-color: rgba(0, 184, 148,1.0);
+    color: white;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#fifth #contact-submit:hover
+{
+    background-color: rgba(85, 239, 196,1.0);
+}
+
+#fifth .head_contact
+{
+    background-image: url('img/bg_1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#fifth .head_contact h2
+{
+    padding-top: 2%;
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+}
+
+#fifth .form h6
+{
+    font-size: 12px;
+}
+
+#fifth .container
+{
+    padding-top: 2%;
+}
+
+#fifth .desc_contact
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+#fifth .desc_contact:hover
+{
+    color: whitesmoke;
+}
+
+#fifth .desc_contact2
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #0072b1;
+}
+
+#fifth .desc_contact2:hover
+{
+    color: darkblue;
+}
+
+#fifth .container .row .col-md-4 .rounded-circle
+{
+   /* background-color: white;*/
+    width: 30px;
+   /* border: 1px solid black;*/
+    font-size: 20px;
+    display: flex;
+    margin-left: -50px;
+}
+
+
+#fifth #icon_contact
+{
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+#fifth .form
+{
+    padding-top: 2%;
+}
+
+#fifth #form_contact
+{
+    margin-top: 4%;
+}
+
+#fifth .form form
+{
+    padding: 20px;
+    width: 350px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#fifth .form fieldset
+{
+    padding-top: 3%;
+    width: 200px;
+}
+
+/** Contact **/
